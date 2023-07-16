@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/sanatanlogo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Well Plated</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h2>Well Plated</h2>
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Special</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Popular Recipe</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Sign Up</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Savor the
+          <span class="highlight">Delicious Food &</span>
+          <span class="highlight">Drinks Recipes</span> for Every Occasion
+        </h1>
+
+        <div class="head-discription">
+          <h4>
+            <p>Your Next Favorite Meal Starts Here</p>
+          </h4>
+        </div>
+        <button class="btn--text btn--scroll-to head-learn-more">
+          Recipe &DownArrow;
+        </button>
+        <img
+          src="./img/herosanatan.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search by name..." />
+    </div>
+
+    <div id="person-list"></div>
+
+    <script src="search-component.js"></script>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Popular Recipes</h2>
+        <h3 class="section__header">Everything as simple as possible.</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>Milkshake</span>
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>Biryani</span>
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>Barbecue</span>
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <ion-icon name="bookmarks-outline" class="t-icon"></ion-icon>
+          </div>
+          <h5 class="operations__header">How to make Milkshake!</h5>
+          <img class="tab-img" src="./img/milkshake.jpg" alt="milkshake" />
+          <p>
+            TIt is usually prepared by milk, ice cream or iced milk, emulsifier
+            and/or stabilizer, and flavorings or sweeteners (e.g., fruit syrup
+            or chocolate sauce). Milkshake contains ice cream unlike milk
+            smoothie. <br />
+            Traditionally, milkshake is served with a whipped cream as topping
+            in a tall glass with a straw. Master a few tricks below to ensure
+            you blend up a perfectly thick and creamy milkshake every time.<br />
+            Soften the ice cream and chill the glass.<br />
+            Take the ice cream out of the freezer for 10 to 15 minutes before
+            use.<br />
+            At the same time, place your glass in the freezer. This will keep
+            the shake cold when you serve it. Measure the ingredients.<br />
+            1 cup ice cream to 1/4 cup milk is a great ratio. Blend the
+            shake.<br />
+            In a blender, combine the milk and ice cream and blend until
+            smooth.<br />
+            Add any your mix-ins and blend them in to your desired
+            consistency.<br />
+            Serve. Pour the shake into the chilled glass and serve immediately.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <ion-icon name="bookmarks-outline" class="t-icon"></ion-icon>
+          </div>
+          <h5 class="operations__header">How to make Biryani?</h5>
+
+          <img class="tab-img" src="./img/biryani.jpg" alt="" />
+          <p>
+            Primarily, there are two reasons why you should read, understand and
+            then implement the teachings revealed in Srimad Bhagavad Gita. These
+            are summarised as under:
+            <br />
+            Srimad Bhagavad Gita is the essence of all the Vedic knowledge that
+            the truth seekers have been able to gather till date or will ever be
+            able to gather in the future, using the faculties of mind and body
+            possessed by human beings. It may sound like a comparatively bold
+            statement to you, but it is true. One is able to understand this
+            statement when one witness the truths revealed in Gita being
+            verified, very often, by modern science.
+            <br />
+            Srimad Bhagavad Gita teaches you how to handle that knowledge. It
+            not only inculcates in you, the right and unbiased perspective of
+            observing and knowing your own self as well as the entire creation
+            but also teaches you how to handle that knowledge acquired through
+            such observance. The beauty of the text is that all this has been
+            done while explaining the narrative between two friends who are at
+            the verge of entering into the most fierce battle of their lifetime.
+            This book is collection of selected knowledge from vedas, so if you
+            want to dive deep you can explore Vedas.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <ion-icon name="checkmark-circle-outline" class="t-icon"></ion-icon>
+          </div>
+          <h5 class="operations__header">How to make Barbecue?</h5>
+
+          <img class="tab-img" src="./img/barbecue.jpg" alt="" />
+          <p>
+            Let us first comprehend the real menaing and scienfitic beauty of
+            Sanatana Dharma. <br />
+            Sanatana means everlasting, eternal, and all-inclusive. <br />
+            Dharma means Righteousness.
+          </p>
+          <p>
+            Sanatana Dharma is not a conventional religion, which divides the
+            human race into sectarian sections. It is an ancient Spiritual and
+            Scientific Way of Life, which unites the entire hman race with an
+            integrationf thread of Universal Love and Brotherhood. <br />
+            <br />Unfortunately, we do not observe that integrationg sentiment
+            these days anymore. <br />
+            <br />I am certain that we will rise to the original level of
+            Sanatana Dharma once again. <br /><br />
+            Let us explore, enumerate, and explain the scientific beauty of
+            Vedas, the oldest surviving spiritual documents of the world and
+            Upanishads.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need to know about cooking.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="./img/nepali_khana.jpg"
+          alt="Computer"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="logo-electron" class="f-icons"></ion-icon>
+          </div>
+          <h5 class="features__header">Nepali Khana Special</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            officia, veritatis labore cum, nostrum necessitatibus vitae unde
+            voluptas laborum, vero nemo! Quisquam reprehenderit, quo, suscipit
+            natus dignissimos in minus rem totam aperiam dolor nam? Ducimus!
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="logo-electron" class="f-icons"></ion-icon>
+          </div>
+          <h5 class="features__header">Snacks</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            aliquid at quis, ut aliquam ad eius alias quam. Fugiat,
+            exercitationem? Soluta quos ipsum quam voluptates non debitis atque
+            incidunt iste, tenetur dolorum deserunt sequi consequuntur?
+          </p>
+        </div>
+        <img src="./img/burgercombo.jpg" alt="Plant" class="features__img" />
+
+        <img
+          src="./img/smoothie_homemade.jpg"
+          alt="Credit card"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="logo-electron" class="f-icons"></ion-icon>
+          </div>
+          <h5 class="features__header">Drinks & Shakes</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            voluptas perferendis consequatur animi, ad alias neque vel culpa
+            tempore architecto eum excepturi dolor asperiores quaerat porro
+            dolorem? Ut, accusamus ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Chefs Working with Well Plated!</h2>
+        <h3 class="section__header">
+          Professional Chefs providing authentic recepie.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Cooking Simplified!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+              excepturi quisquam sapiente voluptatum eaque iste velit
+              voluptatem, corrupti accusantium repellat necessitatibus, quasi
+              distinctio laudantium similique nesciunt dolorum qui expedita
+              perferendis error quas. Qui, porro incidunt quo harum dolorum
+              beatae, dignissimos officia, dolore similique alias cupiditate
+              facilis modi reiciendis quam enim.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Dibya Paudel</h6>
+              <p class="testimonial__location">Melbourne, Australia</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              I love trying our these recipes!
+            </h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium vel quasi porro consectetur dicta dignissimos amet nam,
+              eaque assumenda, odit dolor maiores reiciendis, aliquid
+              consequuntur? Laboriosam, asperiores rem. Sapiente autem eum, cum,
+              exercitationem rerum beatae laborum culpa quaerat perferendis
+              assumenda doloremque rem labore provident eligendi neque expedita
+              excepturi? Est, laborum!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user3.jpg" alt="" class="testimonial__photo" />
+
+              <h6 class="testimonial__name">Diwash Paudel</h6>
+              <p class="testimonial__location">Pokhara, Nepal</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Foods are as much delicious as I am cool!😎😉
+            </h5>
+            <blockquote class="testimonial__text">
+              Sanatana dharma is a beautiful thing that can bring people
+              together and provide them with a sense of peace and purpose. It is
+              also be a source of strength and inspiration in times of hardship.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user2.jpg" alt="" class="testimonial__photo" />
+
+              <h6 class="testimonial__name">Dipesh Paudel</h6>
+              <p class="testimonial__location">Pokhara, Nepal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Lets explore foods from all over the world.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <!-- IF you want to upload logo of Well Plated, pass the photo in below img tag -->
+      <!-- <img src="#" alt="Logo" class="footer__logo" /> -->
+
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Dipesh Paudel</a
+        >. Use for learning or your portfolio. Don't claim as your own product.
+        <br />
+        From next time you guys do your project by yourself! Ask me for guidance
+        dont give your homework & assignments to me!😌
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Taste from Well Plated <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <a class="btn linked-to" href="#">Next step &rarr;</a>
+        <!-- <button class="btn">Next step &rarr;</button> -->
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
